@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saas Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    },
+                    fontFamily: {
+                        sans: [
+                            '"Inter var", sans-serif'
+                        ],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-gray-50 text-gray-900 flex justify-center">
+
+    <div class="w-full p-0">
+        <div class="flex justify-center">
+            <div class="bg-[url('./images/bg.png')] bg-cover">
+                <div class="px-4 md:px-48">
+                    <!-- Navigation Bar -->
+                    <header class="mb-10">
+                        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+                            <a class="text-[#54BD95] text-2xl font-bold" href="#">Biccas</a>
+                            <nav class="space-x-4">
+                                <a href="#" class="text-gray-800">Home</a>
+                                <a href="#" class="text-[#A6A6A6]">Product</a>
+                                <a href="#" class="text-[#A6A6A6]">FAQ</a>
+                                <a href="#" class="text-[#A6A6A6]">Blog</a>
+                                <a href="#" class="text-[#A6A6A6]">About Us</a>
+                            </nav>
+                            <div class="space-x-4">
+                                <a href="#" class="text-gray-800">Login</a>
+                                <a href="#" class="bg-[#54BD95] text-white px-4 py-2 rounded-md">Sign Up</a>
+                            </div>
+                        </div>
+                    </header>
+
+                    <!-- Hero Section -->
+                    <section class="py-16">
+                        <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between">
+                            <div class="w-full md:w-1/2 mb-3 md:mb-0">
+                                <div class="mb-[30px]">
+                                    <h1 class="text-4xl md:text-6xl font-bold">We’re here to Increase your Productivity
+                                    </h1>
+                                </div>
+
+                                <div class="mb-[50px]">
+                                    <img src="./images/arc.svg" class="w-[250px] md:w-[350px]" alt="">
+                                </div>
+
+                                <div class="mb-[70px]">
+                                    <p class="text-black text-lg">Let's make your work more organized and easily using
+                                        the Taskio Dashboard with many of the latest features in managing work every
+                                        day.</p>
+                                </div>
+
+                                <div class="space-x-4 flex">
+                                    <div>
+                                        <a href="#"
+                                            class="bg-[#54BD95] text-white rounded-[40px] px-[20px] md:px-[30px] py-3 md:py-5">Try
+                                            free trial</a>
+                                    </div>
+
+                                    <div>
+                                        <a href="#" class="text-black flex items-center">
+                                            <img src="./images/Play.png" class="w-6 md:w-8 h-6 md:h-8 mx-3" alt="">
+                                            <span class="text-lg">View Demo</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-full md:w-4/5 flex items-end justify-end relative left-0 md:left-[108px]">
+                                <img src="./images/heroimage.svg" alt="Productivity" class="">
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Logos Section -->
+                <section class="py-8 px-4 md:px-48">
+                    <div class="text-center">
+                        <p class="text-[#191A15] mb-[60px] text-[30px] md:text-[40px] font-bold">More than 25,000 teams
+                            use Collabs</p>
+                        <div class="flex justify-center">
+                            <img src="./images/logo.svg" alt="Unsplash" class="">
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Support Section -->
+                <section class="bg-[#F9F8FE] py-[60px] px-4 md:px-48">
+                    <div class="flex flex-col md:flex-row justify-between">
+                        <div class="w-full md:w-1/2 mb-10 md:mb-0">
+                            <div class="mb-[73px]">
+                                <h3 class="text-[30px] md:text-[50px] font-semibold text-[#191A15] pb-[30px]">How we
+                                    support our partner all over the world</h3>
+                                <p class="text-base text-[#A6A6A6] font-medium">
+                                    SaaS become a common delivery model for many business application, including office
+                                    software, messaging software, payroll processing software, DBMS software, management
+                                    software
+                                </p>
+                            </div>
+
+                            <div class="flex">
+                                <div class="me-20">
+                                    <img src="./images/full_star.png" class="mb-[18px]" alt="">
+                                    <p class="text-[#191A15] text-lg font-normal mb-[18px]"><span
+                                            class="font-bold">4.9</span> / 5 rating
+                                    </p>
+                                    <p class="text-[#A6A6A6] font-bold text-lg">databricks</p>
+                                </div>
+
+                                <div>
+                                    <img src="./images/half_star.png" class="mb-[18px]" alt="">
+                                    <p class="text-[#191A15] text-lg font-normal mb-[18px]"><span
+                                            class="font-bold">4.8</span> / 5 rating
+                                    </p>
+                                    <p class="text-[#A6A6A6] font-bold text-lg">Chainalysis</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="w-full md:w-1/2">
+                            <div class="mb-[30px]">
+                                <div class="flex">
+                                    <img src="./images/2.svg" class="w-[60px] h-[60px] me-[30px]" alt="">
+
+                                    <div>
+                                        <h3 class="text-[#191A15] text-[28px] font-bold">Publishing</h3>
+                                        <p class="text-[#A6A6A6] text-lg font-medium">
+                                            Plan, collaborate, and publishing your contetn that drivees meaningful
+                                            engagement and growth for your barnd
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mb-[30px]">
+                                <div class="flex">
+                                    <img src="./images/3.svg" class="w-[60px] h-[60px] me-[30px]" alt="">
+
+                                    <div>
+                                        <h3 class="text-[#191A15] text-[28px] font-bold">Analytics</h3>
+                                        <p class="text-[#A6A6A6] text-lg font-medium">
+                                            Analyze your performance and create goegeous report
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mb-[30px]">
+                                <div class="flex">
+                                    <img src="./images/1.svg" class="w-[60px] h-[60px] me-[30px]" alt="">
+
+                                    <div>
+                                        <h3 class="text-[#191A15] text-[28px] font-bold">Engagement</h3>
+                                        <p class="text-[#A6A6A6] text-lg font-medium">
+                                            Quickly navigate you anda engage with your adience
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section class="bg-[url('./images/bg3.png')] bg-cover mb-4">
+                    <div class="px-4 md:px-48 md:py-[130px] py-20">
+                        <div class="flex flex-col md:flex-row items-center mb-[74px]">
+                            <div class="w-full md:w-[331px] me-0 md:me-[113px] mb-6 md:mb-0">
+                                <h3 class="text-[#191A15] text-[30px] md:text-[40px] font-semibold">Our Features you can
+                                    get</h3>
+                            </div>
+
+                            <div class="w-full md:w-[461px] me-0 md:me-[113px] mb-6 md:mb-0">
+                                <p class="text-[#A6A6A6] text-lg font-medium">
+                                    We offer a wide range of features that make our product stand out from the
+                                    competition.
+                                </p>
+                            </div>
+
+                            <div class="w-full md:w-[198px]">
+                                <a href="#" class="bg-[#54BD95] text-white rounded-[40px] px-[30px] py-5">Get
+                                    Started</a>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4  block md:hidden">
+                            <div class="bg-white p-6 rounded-lg shadow-lg">
+                                <div class="flex items-center mb-6">
+                                    <img src="./images/img3.svg" alt="" class="w-12 h-12 mr-4">
+                                    <h3 class="text-[#191A15] text-[24px] font-bold">Collaboration Teams</h3>
+                                </div>
+                                <p class="text-[#A6A6A6] text-lg font-medium">
+                                    Here you can handle projects together with team virtually
+                                </p>
+                            </div>
+
+                            <div class="bg-white p-6 rounded-lg shadow-lg">
+                                <div class="flex items-center mb-6">
+                                    <img src="./images/img.svg" alt="" class="w-12 h-12 mr-4">
+                                    <h3 class="text-[#191A15] text-[24px] font-bold">Cloud Storage</h3>
+                                </div>
+                                <p class="text-[#A6A6A6] text-lg font-medium">
+                                    No nedd to worry about storage because we provide storage up to 2 TB
+                                </p>
+                            </div>
+
+                            <div class="bg-white p-6 rounded-lg shadow-lg">
+                                <div class="flex items-center mb-6">
+                                    <img src="./images/img2.svg" alt="" class="w-12 h-12 mr-4">
+                                    <h3 class="text-[#191A15] text-[24px] font-bold">Daily Analytics </h3>
+                                </div>
+                                <p class="text-[#A6A6A6] text-lg font-medium">
+                                    We always provide useful informatin to make it easier for you every day
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class=" justify-between mb-[130px]  md:flex hidden">
+                            <div class="w-2/4 mb-[44px]">
+                                <img src="./images/img3.svg" class="mb-[30px]" alt="">
+                                <h3 class="text-[#191A15] text-3xl font-semibold mb-[20px]">Collaboration Teams </h3>
+                                <p class="text-[#A6A6A6] text-lg font-medium">
+                                    Here you can handle projects together with team virtually
+                                </p>
+                            </div>
+
+                            <div class="w-2/4 mb-[44px]">
+                                <img src="./images/img.svg" class="mb-[30px]" alt="">
+                                <h3 class="text-[#191A15] text-3xl font-semibold mb-[20px]">Cloud Storage </h3>
+                                <p class="text-[#A6A6A6] text-lg font-medium">
+                                    No nedd to worry about storage because we provide storage up to 2 TB
+                                </p>
+                            </div>
+
+                            <div class="w-2/4 mb-[44px]">
+                                <img src="./images/img2.svg" class="mb-[30px]" alt="">
+                                <h3 class="text-[#191A15] text-3xl font-semibold mb-[20px]">Daily Analytics </h3>
+                                <p class="text-[#A6A6A6] text-lg font-medium">
+                                    We always provide useful informatin to make it easier for you every day
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col md:flex-row justify-between md:mb-[130px] mb-8">
+                            <div>
+                                <h3 class="text-[#191A15] text-[40px] font-bold py-[50px]">What Benefit Will You Get
+                                </h3>
+                                <div>
+                                    <p class="pb-[30px] flex items-center">
+                                        <img src="./images/check.png" class="mr-[20px]" alt="">
+                                        <span>Free Consulting With Expert Saving Money</span>
+                                    </p>
+                                    <p class="pb-[30px] flex items-center">
+                                        <img src="./images/check.png" class="mr-[20px]" alt="">
+                                        <span>Online Banking</span>
+                                    </p>
+                                    <p class="pb-[30px] flex items-center">
+                                        <img src="./images/check.png" class="mr-[20px]" alt="">
+                                        <span>Investment Report Every Month</span>
+                                    </p>
+                                    <p class="pb-[30px] flex items-center">
+                                        <img src="./images/check.png" class="mr-[20px]" alt="">
+                                        <span>Saving Money For The Future</span>
+                                    </p>
+                                    <p class="pb-[30px] flex items-center">
+                                        <img src="./images/check.png" class="mr-[20px]" alt="">
+                                        <span>Online Transaction</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex justify-center mt-8 md:mt-0">
+                                <img src="./images/svg.svg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="mb-[67px]">
+                            <div class="text-center">
+                                <h3 class="text-[#191A15] text-[50px] font-bold pb-10">Choose Plan <br> That’s Right For
+                                    You</h3>
+                                <p class="text-[#A6A6A6] text-lg font-bold">Choose plan that works best for you, feel
+                                    free to contact us</p>
+                                <div class="flex justify-center mt-[47px]">
+                                    <div
+                                        class="w-full max-w-[340px] h-[70px] rounded-[10px] bg-white flex justify-between items-center shadow py-[20px] px-[12px]">
+                                        <div class="py-[13px] flex items-center justify-center w-1/2">
+                                            <span class="text-center">Bill Monthly</span>
+                                        </div>
+                                        <div
+                                            class="py-[13px] px-[20px] bg-[#54BD95] rounded-lg flex items-center justify-center w-1/2">
+                                            <span class="text-white text-center">Bill Yearly</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mx-auto py-12 sm:px-6 lg:px-8">
+                            <div
+                                class="flex flex-col lg:flex-row justify-center items-center lg:space-x-6 space-y-6 lg:space-y-0">
+
+                                <!-- Free Plan -->
+                                <div
+                                    class="bg-white shadow-lg shadow-[#0000000D] rounded-lg p-6 text-center w-full lg:w-2/5">
+                                    <h2 class="text-2xl font-semibold mb-4">Free</h2>
+                                    <p class="text-[#A6A6A6] mb-[39px] text-lg">Have a go and test your superpowers</p>
+                                    <p class="text-[50px] text-[#191A15] font-semibold relative">
+                                        <span class="text-[#A6A6A6] text-lg left-[105px] bottom-12 absolute">$</span> 0
+                                    </p>
+                                    <div class="bg-[#F9FAFB] rounded-[10px] p-3 pb-[50px]">
+                                        <ul class="space-y-2">
+                                            <li class="flex items-center px-[10px] py-[8px]">
+                                                <img src="./images/check2.svg" class="mr-1" alt="">
+                                                <p class="text-base">2 Users</p>
+                                            </li>
+                                            <li class="flex items-center px-[10px] py-[8px]">
+                                                <img src="./images/check2.svg" class="mr-1" alt="">
+                                                <p class="text-base">2 Files</p>
+                                            </li>
+                                            <li class="flex items-center px-[10px] py-[8px]">
+                                                <img src="./images/check2.svg" class="mr-1" alt="">
+                                                <p class="text-base">Public Share & Comments</p>
+                                            </li>
+                                            <li class="flex items-center px-[10px] py-[8px]">
+                                                <img src="./images/check2.svg" class="mr-1" alt="">
+                                                <p class="text-base">Chat Support</p>
+                                            </li>
+                                            <li class="flex items-center px-[10px] py-[8px]">
+                                                <img src="./images/check2.svg" class="mr-1" alt="">
+                                                <p class="text-base">New income apps</p>
+                                            </li>
+                                        </ul>
+                                        <button
+                                            class="mt-[28px] bg-white shadow-lg shadow-[#0000000D] text-[#54BD95] py-[12px] px-[65px] rounded-[10px] text-base font-semibold">Signup
+                                            for free</button>
+                                    </div>
+                                </div>
+
+                                <!-- Pro Plan -->
+                                <div
+                                    class="bg-[#54BD95] shadow-lg shadow-[#0000000D] rounded-lg p-6 text-center w-full lg:w-2/5">
+                                    <h2 class="text-2xl font-semibold mb-4 text-white">Pro</h2>
+                                    <p class="text-white mb-[39px] text-lg">Experiment the power of infinite
+                                        possibilities</p>
+                                    <p class="text-[50px] text-white font-semibold relative">
+                                        <span class="text-white text-lg left-[105px] bottom-12 absolute">$</span> 8
+                                    </p>
+                                    <div class="flex items-center justify-center pb-[20px]">
+                                        <div
+                                            class="bg-[#85DAB9] w-[130px] h-[40px] rounded-[10px] flex items-center justify-center">
+                                            <span class="text-white text-center text-sm">Save $50 a year</span>
+                                        </div>
+                                    </div>
+                                    <div class="bg-[#F9FAFB] rounded-[10px] p-3 pb-[50px]">
+                                        <ul class="space-y-2">
+                                            <li class="flex items-center px-[10px] py-[8px]">
+                                                <img src="./images/check2.svg" class="mr-1" alt="">
+                                                <p class="text-base">4 Users</p>
+                                            </li>
+                                            <li class="flex items-center px-[10px] py-[8px]">
+                                                <img src="./images/check2.svg" class="mr-1" alt="">
+                                                <p class="text-base">All apps</p>
+                                            </li>
+                                            <li class="flex items-center px-[10px] py-[8px]">
+                                                <img src="./images/check2.svg" class="mr-1" alt="">
+                                                <p class="text-base">Unlimited editable exports</p>
+                                            </li>
+                                            <li class="flex items-center px-[10px] py-[8px]">
+                                                <img src="./images/check2.svg" class="mr-1" alt="">
+                                                <p class="text-base">Folders and collaboration</p>
+                                            </li>
+                                            <li class="flex items-center px-[10px] py-[8px]">
+                                                <img src="./images/check2.svg" class="mr-1" alt="">
+                                                <p class="text-base">All incoming apps</p>
+                                            </li>
+                                        </ul>
+                                        <button
+                                            class="mt-[28px] bg-[#54BD95] shadow-lg shadow-[#0000000D] text-white py-[12px] px-[65px] rounded-[10px] text-base font-semibold">Go
+                                            to pro</button>
+                                    </div>
+                                </div>
+
+                                <!-- Business Plan -->
+                                <div
+                                    class="bg-white shadow-lg shadow-[#0000000D] rounded-lg p-6 text-center w-full lg:w-2/5">
+                                    <h2 class="text-2xl font-semibold mb-4">Business</h2>
+                                    <p class="text-[#A6A6A6] mb-[39px] text-lg">Unveil new superpowers and join the
+                                        Design League</p>
+                                    <p class="text-[50px] text-[#191A15] font-semibold relative">
+                                        <span class="text-[#A6A6A6] text-lg left-[105px] bottom-12 absolute">$</span> 16
+                                    </p>
+                                    <div class="bg-[#F9FAFB] rounded-[10px] p-3 pb-[50px]">
+                                        <ul class="space-y-2">
+                                            <li class="flex items-center px-[10px] py-[8px]">
+                                                <img src="./images/check2.svg" class="mr-1" alt="">
+                                                <p class="text-base">All the features of pro plan</p>
+                                            </li>
+                                            <li class="flex items-center px-[10px] py-[8px]">
+                                                <img src="./images/check2.svg" class="mr-1" alt="">
+                                                <p class="text-base">Account success Manager</p>
+                                            </li>
+                                            <li class="flex items-center px-[10px] py-[8px]">
+                                                <img src="./images/check2.svg" class="mr-1" alt="">
+                                                <p class="text-base">Single Sign-On (SSO)</p>
+                                            </li>
+                                            <li class="flex items-center px-[10px] py-[8px]">
+                                                <img src="./images/check2.svg" class="mr-1" alt="">
+                                                <p class="text-base">Co-conception program</p>
+                                            </li>
+                                            <li class="flex items-center px-[10px] py-[8px]">
+                                                <img src="./images/check2.svg" class="mr-1" alt="">
+                                                <p class="text-base">Collaboration-Soon</p>
+                                            </li>
+                                        </ul>
+                                        <button
+                                            class="mt-[28px] bg-white shadow-lg shadow-[#0000000D] text-[#54BD95] py-[12px] px-[65px] rounded-[10px] text-base font-semibold">Go
+                                            to Business</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <!-- Footer -->
+                <footer class="bg-[#161C28] px-4 md:px-[130px] pt-4 md:pt-16 pb-8 md:pb-16 text-white">
+                    <div class="md:flex md:flex-row flex-col justify-between">
+                        <div class="md:w-1/2 w-full mb-4 md:mb-0">
+                            <div class="mb-4">
+                                <h3 class="text-white text-xl md:text-[48px] h-16 font-normal leading-9 mb-[25px] w-full">People are Saying About DoWhith</h3>
+                                <p class="text-[#A6A6A6] text-sm md:text-lg">Everything you need to accept to payment and grow your
+                                    money of manage anywhere on planet</p>
+                            </div>
+                            <div class="mb-4">
+                                <img src="./images/line.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[#A6A6A6] text-sm">I am very helped by this E-wallet application, my
+                                    days are very easy to use this application and its very helpful in my life, even I
+                                    can pay a short time 😍</p>
+                            </div>
+                        </div>
+                
+                        <div class="bg-[#222938] rounded-lg md:w-1/2 w-full md:ml-4 md:mt-0 mt-4 py-4 md:py-8">
+                            <div class="flex justify-center mb-4">
+                                <img src="./images/contact.svg" class="text-center" alt="">
+                            </div>
+                            <p class="text-white text-xl text-center">Get Started</p>
+                        </div>
+                    </div>
+                </footer>
+                
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
